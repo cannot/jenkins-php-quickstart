@@ -138,8 +138,8 @@
  	<mkdir dir="./build" />
  	<mkdir dir="./generatedJUnitFiles" />
  	
- 	<chown file="./build" user="jenkins.nogroup" />
- 	<chown file="./generatedJUnitFiles" user="jenkins.nogroup" />
+ 	<chown file="./build" user="jenkins.jenkins" />
+ 	<chown file="./generatedJUnitFiles" user="jenkins.jenkins" />
  </target>
  
 </project>
