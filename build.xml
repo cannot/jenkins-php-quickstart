@@ -116,6 +116,8 @@
   <exec executable="${project.basedir}/vendor/bin/phpdoc.php">
    <arg value="-f" />
    <arg value="${project.basedir}/phpdox.xml" />
+   <arg value="-t" />
+   <arg value="${project.basedir}/output" />
   </exec>
  </target>
 
